@@ -143,6 +143,7 @@ body {
     padding: 10px 93px;
     border: none;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .button {
@@ -156,7 +157,46 @@ footer {
 
 .title_font__bottom {
     text-align: center;
-    padding-bottom: 89px;
+    padding-bottom: 31px;
     box-sizing: border-box;
 }
 
+.mail_footer {
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.footer_mail {
+    font-family: 'Marcellus SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    color: #A89D9D;
+    text-decoration: none;
+}
+
+.tell_footer {
+    text-align: center;
+    padding-bottom: 21px;
+    box-sizing: border-box;
+}
+
+.footer_tell {
+    font-family: 'Marcellus SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    color: #A89D9D;
+    text-decoration: none;
+}
+
+.footer_elems {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 27px;
+    box-sizing: border-box;
+}
