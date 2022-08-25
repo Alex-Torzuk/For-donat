@@ -58,7 +58,7 @@ body {
 }
 
 .main {
-    margin: 0 80px;
+    margin: 0 80px 74px;
 }
 
 .h1 {
@@ -74,6 +74,11 @@ body {
     border-bottom: 5px solid #33B8F1;
     width: 402px;
     margin-bottom: 33px;
+}
+
+.card_flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 .card {
@@ -113,3 +118,45 @@ body {
     box-sizing: border-box;
     width: 70%;
 }
+
+.h1__center {
+    text-align: center;
+}
+
+.line__center {
+    margin: 0 auto 62px;
+}
+
+.image__ukraine {
+   text-align: center;
+   margin-bottom: 51px;
+}
+
+.button_style {
+    background-color: #2A61F0;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 157.3%;
+    color: #FFFFFF;
+    padding: 10px 93px;
+    border: none;
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+footer {
+    background-color: #2F4A4B;
+}
+
+.title_font__bottom {
+    text-align: center;
+    padding-bottom: 89px;
+    box-sizing: border-box;
+}
+
