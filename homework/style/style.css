@@ -1,0 +1,281 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    background-color: #202846;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_sidebar {
+    display: flex;
+    list-style-type: none;
+}
+
+.sidebar_title {
+    margin-right: 50px;
+}
+
+.sidebar_title_link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.04em;
+    font-weight: 700;
+}
+
+.sidebar_links:hover {
+    color: #AEAEE2;
+    transition: .5s;
+}
+
+.header_langs {
+    display: flex;
+    align-items: center;
+}
+
+.lang_link ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section_build {
+    background-color: #C6C6DC;
+    max-width: 100%;
+}
+
+.section-title-build {
+    width: 80%;
+    margin: 0 auto;
+    color: #202846;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2em;
+    padding: 1em 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 100%;
+    background-color: #E8E8E8;
+}
+
+.section_nav_build {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.section_nav_build_padding {
+    padding: 1.9em 0;
+}
+
+.section_nav_link {
+    background-color: #F5F5F5;
+    color: rgba(0, 0, 0, 0.61);
+    text-align: center;
+    padding: .8em;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-bottom: 1.9em;
+}
+
+.section_nav_link_img {
+    position: relative;
+    top: .3em;
+    left: 18em;
+    width: 1em;
+}
+
+.section_card {
+    background-color: #BDBDC6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.section_card:hover, .card-btn:hover {
+    background-color: #AEAEE2;
+    transition: .5s;
+}
+
+.card_img {
+    width: 35%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.card__img img {
+    height: 100%;
+}
+
+.card_content {
+    width: 50%;
+    height: 80%;
+}
+
+.card_content_title {
+    color: #353C57;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.9em;
+    border-bottom: 3px solid white;
+    margin-bottom: 1rem;
+}
+
+.card_content_description {
+    background-color: #D7D7DD;
+    font-weight: 400;
+    color: #202846;
+    font-size: .9em;
+    text-align: center;
+    padding: 2.2rem;
+}
+
+.card-star, .card-btn {
+    position: absolute;
+}
+
+.card-star {
+    right: 1rem;
+    top: 1rem
+}
+
+.card-btn {
+    bottom: 0;
+    right: -40px;
+    width: 200px;
+    padding: 1rem 0;
+    background-color: #202846;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.card-btn:hover{
+    background-color: #EF075B;
+    transition: .5s;
+}
+
+.fixed-div {
+    position: fixed;
+    left: 91.5%;
+}
+
+.personal-cabinet {
+    width: 70%;
+    height: 430px;
+    margin: 0 auto;
+    background-color: #BDBDC6;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.personal-cabinet-ava {
+    width: 35%;
+}
+
+.ava_img {
+    width: 8em;
+    margin-bottom: 2.5em;
+    margin-left: .4em;
+}
+
+.ava-btn button{
+    background-color: #484A54;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding: 3px 22px;
+    margin-bottom: 1.7em;
+}
+
+.ava-btn button:hover {
+    background-color: #69749B;
+    transition: .5s;
+}
+
+.personal-cabinet_description {
+    width: 50%;
+}
+
+.cabinet_description {
+    color: #353C57;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.3em;
+    border-bottom: 3px solid #FFFFFF;
+    margin-bottom: 1em;
+}
+
+.cabinet_description span{
+    font-style: italic;
+    font-weight: 400;
+}
+
+.persinal_btn {
+    text-align: center;
+}
+
+.persinal_btn button {
+    background-color: #202846;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding: 5px 30px;
+    margin-bottom: 1.7em;
+}
+
+.persinal_btn button:hover {
+    background-color: #69749B;
+    transition: .5s;
+}
+
+footer {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 2em;
+    flex-wrap: wrap;
+}
+
+footer>div{
+    margin: 0 10px 50px;
+}
+
+.footer_title {
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+.footer__description {
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.footer__description span {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.footer_img {
+    width: 20em;
+}
+
+.footer-footer {
+    background-color: #202846;
+    max-width: 100%;
+    color: #EEECF1;
+    padding: 2em 4em;
+}
