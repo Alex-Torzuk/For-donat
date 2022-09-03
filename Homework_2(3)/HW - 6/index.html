@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW 6</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <div class="child_form">
+                <div class="child_form_logo">
+                    Kreativ
+                </div>
+                <div class="child_form_title">
+                    Let’s get you started
+                </div>
+                <form autocomplete="on">
+                    <div class="form_type">
+                        <div class="form_title">
+                            Full name
+                        </div>
+                        <input class="form_input" type="text" placeholder="Ade Tiger">
+                    </div>
+                    <div class="form_type">
+                        <div class="form_title">
+                            Email address
+                        </div>
+                        <input class="form_input" type="email"  placeholder="yourname@email.com">
+                    </div>
+                    <div class="form_type">
+                        <div class="form_title">
+                            Phone number
+                        </div>
+                        <input class="form_input" type="tel" placeholder="+234 800 2738 9700" value="+234">
+                    </div>
+                    <div class="form_type">
+                        <div class="form_title">
+                            Create password
+                        </div>
+                        <input class="form_input" type="password" placeholder="your password">
+                        <div class="form_input_rules">Password must contain a minimum of 8 characters</div>
+                        <div class="form_input_rules">Password must contain at least one symbol e.g. @, !</div>
+                    </div>
+                    <div class="form_type">
+                        <div class="form_title">
+                            Location <span>(Optional)</span>
+                        </div>
+                        <input class="form_input" type="text" list="metro" placeholder="Select Location" />
+                        <datalist id="metro">
+                            <option value="Синяя ветка">
+                            <option value="Теремки">
+                        </datalist>        
+                    </div>
+                    <div class="form_btn">
+                        <button>Sign Up</button>
+                    </div>
+                </form>
+                <div class="form_footer">
+                    Already a user? <a href="#">Login</a>
+                </div>
+            </div>
+            <div class="child_content">
+                <div class="child_content_title">
+                    <div class="child_content_childs1"><a href="#">Home</a></div>
+                    <div class="child_content_childs2"><a href="#">Contact</a></div>
+                </div>
+                <div class="child_content_quotation-width">
+                    <div class="child_content_quotation">
+                        “Creativity is intelligence having fun”
+                    </div>
+                    <div class="child_content_quotation_name">
+                        - Albert Einstein
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

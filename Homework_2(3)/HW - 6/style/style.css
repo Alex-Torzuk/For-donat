@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.parent {
+    max-width: 1500px;
+    height: 959px;
+    background: linear-gradient(to left, #3E718E, #64969B);
+    padding-top: 110px;
+}
+
+.child {
+    max-width: 70%;
+    height: 667px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.child_form {
+    width: 60%;
+    background-color: #FFFFFF;
+}
+
+.child_form_logo {
+    color: #496F74;
+    font-weight: 700;
+    font-size: 1.6em;
+    padding: .8em 0 3.5em 2em;
+    box-sizing: border-box;
+}
+
+.child_form_title {
+    font-weight: 700;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form_type {
+    margin-bottom: .7em;
+}
+
+.form_title {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.form_title span {
+    font-weight: 400;
+    font-size: .9em;
+}
+
+.form_input {
+    width: 26em;
+    height: 1.8em;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
+
+.form_input_rules {
+    font-weight: 400;
+    font-size: .7em;
+    color: #A8A8A8;
+}
+
+.form_btn {
+    margin-top: 3.9em;
+    text-align: center;
+}
+
+.form_btn button {
+    padding: .5em 9em;
+    background-color: #27485D;
+    font-weight: 700;
+    font-size: 1em;
+    color: #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: .8em;
+}
+
+.form_footer {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1em;
+    color: #C4C4C4;
+    padding-bottom: 2.1em;
+}
+
+.form_footer a {
+    color: #476D73;
+}
+
+.child_content {
+    width: 40%;
+    background: linear-gradient(160.42deg, #517879 0%, #214159 100%);
+    box-shadow: -3px 0px 19px 3px #214159;
+}
+
+.child_content_title {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em .8em;
+}
+
+.child_content_childs1 {
+    font-weight: 700;
+    font-size: 1em;
+    color: #FFFFFF;
+    margin-right: 1.7em;
+}
+
+.child_content_childs2 {
+    font-weight: 700;
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+.child_content_childs1 a, .child_content_childs2 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.child_content_quotation-width {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 11em;
+}
+
+.child_content_quotation {
+    font-weight: 700;
+    font-size: 3em;
+    color: #FFFFFF;
+}
+
+.child_content_quotation_name {
+    font-weight: 700;
+    font-size: 1em;
+    color: #FFFFFF;
+}
