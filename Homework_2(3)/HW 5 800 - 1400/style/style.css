@@ -107,6 +107,51 @@ header {
     width: 50%;
 }
 
-.header-content-img-bicecle {
-    
+.section_bar {
+    width: 96%;
+    margin: 8em auto 12em;
+}
+
+.section_bar_title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 4em;
+    color: #111111;
+    margin: 0 0 .4em 2em;
+}
+
+.section_bar_title span {
+    color: #FFBB00;
+}
+
+.section_bar_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_bar_flex_icons_description {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 2em;
+    color: #111111;
+}
+
+.section_bar_flex_icons_description span {
+    color: #FFBB00;
+}
+
+.section_bar_flex_icons_cost {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1em;
+    color: #595959;
+    margin-left: 1.7em;
+}
+
+.section_bar_flex_icons_bicycle {
+    width: 25em;
+}
+
+.section_bar_flex_icons_link {
+    text-decoration: none;
 }
