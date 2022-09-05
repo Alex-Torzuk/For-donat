@@ -248,6 +248,8 @@ header {
 
 .lable {
     width: 94%;
+    margin-left: 4em;
+    margin-bottom: 1em;
 }
 
 .lable_title {
@@ -256,17 +258,67 @@ header {
     font-size: 4em;
     color: #111111;
     margin-left: 2em;
-    margin-bottom: 2.5em;
+    margin-bottom: 0.5em;
 }
 
 .lable_border {
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .lable_border_image {
     border: 2px solid #E0E0E0;
+    width: 18em;
+    height: 6em;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 .lable_border_image_img {
-    padding: 2em;
+    padding-top: 1.9em;
+    box-sizing: border-box;
+}
+
+.sayings {
+    width: 100%;
+    display: flex;
+    height: 588px;
+}
+
+.sayings-image {
+    width: 50%;
+}
+
+.sayings-img {
+    width: 42.2em;
+}
+
+.sayings-description {
+    width: 50%;
+}
+
+.sayings-description {
+    background-color: #FFBB00;
+    padding: 17em 7em 0 4em;
+    box-sizing: border-box;
+}
+
+.sayings-description-title {
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2em;
+    color: #332200;
+}
+
+.sayings-description-title span {
+    color: #706b52;
+}
+
+.sayings-description-name {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #664400;
 }
