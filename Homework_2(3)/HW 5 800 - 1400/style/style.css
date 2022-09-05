@@ -163,6 +163,7 @@ header {
     height: 861px;
     display: flex;
     align-items: center;
+    margin-bottom: 142px;
 }
 
 .tools_width {
@@ -243,4 +244,29 @@ header {
 
 .tools-image_img {
     width: 38em;
+}
+
+.lable {
+    width: 94%;
+}
+
+.lable_title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 4em;
+    color: #111111;
+    margin-left: 2em;
+    margin-bottom: 2.5em;
+}
+
+.lable_border {
+    display: flex;
+}
+
+.lable_border_image {
+    border: 2px solid #E0E0E0;
+}
+
+.lable_border_image_img {
+    padding: 2em;
 }
