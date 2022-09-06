@@ -322,3 +322,102 @@ header {
     font-size: 1.5em;
     color: #664400;
 }
+
+.section-price {
+    width: 100%;
+    background-color: #161616;
+}
+
+.section-price-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 2em;
+    color: #FFFFFF;
+    padding: 2em 0 2em 3em;
+    box-sizing: border-box;
+}
+
+.section-price-title span {
+    color: #FFBB00;
+}
+
+.section-price-flex {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.section-prise_blocks {
+    background-color: #000000;
+    padding: 2em;
+    box-sizing: border-box;
+    width: 27em;
+}
+
+.section-prise-cost {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.2em;
+}
+
+.section-prise-cist-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 2em;
+    color: #9C9C9C;
+}
+
+.section-prise-cist-prise {
+    font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 2em;
+        line-height: 48px;
+        color: #FFFFFF;
+}
+
+.section-prise-cist-description {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: .8em;
+    color: #9C9C9C;
+    padding-left: 4em;
+}
+
+.section-prise_blocks-list {
+    margin-bottom: 3em;
+}
+
+.section-prise_blocks-list ul {
+    list-style-type: none;
+}
+
+.section-prise_blocks-list ul li {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1em;
+    color: #FFFFFF;
+    margin-bottom: 1em;
+}
+
+.section-prise_blocks-list ul li span {
+    color: #FFBB00;
+}
+
+.header-sidebar-li:last-child {
+    margin-bottom: 0;
+}
+
+.section-price-btn {
+    margin-left: 3em;
+}
+
+.section-price-btn button {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1em;
+    color: #CCCCCC;
+    padding: 1em 1.8em;
+    background-color: #2E2E2E;
+    border-radius: 5px;
+}
+
