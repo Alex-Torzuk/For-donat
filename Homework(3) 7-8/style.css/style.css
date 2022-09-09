@@ -1,0 +1,100 @@
+body {
+    font-family: 'Rosario', sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    
+}
+
+.header-nav {
+    background-color: #000000;
+}
+
+.header-nav ul {
+    display: flex;
+    padding-top: 1.7em;
+    padding-left: 14.2em;
+    box-sizing: border-box;
+}
+
+.header-nav-li {
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2em;
+    color: #FFFCFC;
+    list-style-type: none;
+    margin-right: 1.5em;
+}
+
+.header-nav-li:last-of-type {
+    margin-right: .5em;
+}
+
+.header-nav-li-link {
+    text-decoration: none;
+    color: #FFFCFC;
+}
+
+.section-gallery {
+    display: flex;
+    justify-content: center;
+    padding-top: 10.5em;
+    align-items: center;
+}
+
+.section-gallery-block-1 {
+    margin-right: 2em;
+    position: relative;
+        left: -380px;
+}
+@keyframes anim { from {
+    margin-left: 0px;
+}
+to {
+    margin-left: 900px;
+}
+}
+
+.section-gallery-Photo1 {
+    width: 230px;
+    animation: anim 3s infinite;
+}
+
+.section-gallery-block-2-1, .section-gallery-block-3-1 {
+    margin-bottom: 1em;
+}
+
+.section-gallery-Photo2 {
+    width: 260px;
+}
+
+.section-gallery-block-3 {
+    margin-left: .5em;
+}
+
+.section-gallery-Photo3 {
+    width: 260px;
+}
+
+.section-gallery-Photo4 {
+    width: 260px;
+}
+
+.section-gallery-Photo5 {
+    width: 260px;
+}
+
+.section-gallery-block-4 {
+    margin-left: 2em;
+}
+
+.section-gallery-Photo6 {
+    width: 230px;
+}
