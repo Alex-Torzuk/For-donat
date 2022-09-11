@@ -9,6 +9,7 @@ body {
 .header {
     display: flex;
     position: fixed;
+    z-index: 1;
     
 }
 
@@ -19,7 +20,7 @@ body {
 .header-nav ul {
     display: flex;
     padding-top: 1.7em;
-    padding-left: 14.2em;
+    padding-left: 13.1em;
     box-sizing: border-box;
 }
 
@@ -44,27 +45,45 @@ body {
 
 .section-gallery {
     display: flex;
-    justify-content: center;
-    padding-top: 10.5em;
+    padding-top: 11em;
     align-items: center;
 }
 
 .section-gallery-block-1 {
     margin-right: 2em;
     position: relative;
-        left: -380px;
+    left: -300px;
+    animation: anim 3s 2s forwards;
 }
-@keyframes anim { from {
-    margin-left: 0px;
+@keyframes anim { 
+    from {
+    left: -240px;
 }
 to {
-    margin-left: 900px;
+    left: 140px;
 }
 }
 
 .section-gallery-Photo1 {
     width: 230px;
-    animation: anim 3s infinite;
+    
+}
+
+.section-gallery-block-2 {
+    margin-right: 2em;
+    position: relative;
+    left: -800px;
+    animation: anim2 3s 1s forwards;
+}
+
+@keyframes anim2 {
+    from {
+        left: -640px;
+    }
+
+    to {
+        left: 150px;
+    }
 }
 
 .section-gallery-block-2-1, .section-gallery-block-3-1 {
@@ -77,6 +96,18 @@ to {
 
 .section-gallery-block-3 {
     margin-left: .5em;
+    position: relative;
+    right: -900px;
+    animation: anim3 3s 1s forwards;
+}
+@keyframes anim3 {
+    from {
+        right: -840px;
+    }
+
+    to {
+        right: -140px;
+    }
 }
 
 .section-gallery-Photo3 {
@@ -93,8 +124,24 @@ to {
 
 .section-gallery-block-4 {
     margin-left: 2em;
+    position: relative;
+    right: -800px;
+    animation: anim4 3s 2s forwards;
+}
+@keyframes anim4 {
+    from {
+        right: -640px;
+    }
+
+    to {
+        right: -150px;
+    }
 }
 
 .section-gallery-Photo6 {
     width: 230px;
+}
+
+@media (min-width:992px) and (max-width:1620px) {
+    
 }
