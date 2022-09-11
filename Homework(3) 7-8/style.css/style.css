@@ -47,6 +47,7 @@ body {
     display: flex;
     padding-top: 11em;
     align-items: center;
+    margin-bottom: 3em;
 }
 
 .section-gallery-block-1 {
@@ -142,6 +143,157 @@ to {
     width: 230px;
 }
 
-@media (min-width:992px) and (max-width:1620px) {
-    
+.section-services {
+    display: flex;
+    justify-content: space-between;
 }
+
+.section-services-block-1 {
+    width: 50%;
+    margin-top: 6em;
+}
+
+.section-services-block-2 {
+    width: 50%;
+
+}
+
+.section-services-block-1-image {
+    text-align: center;
+}
+
+.image-services1 {
+    width: 27%;
+}
+
+.img-services1-title {
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.services-img-1 {
+    position: relative;
+}
+
+
+
+
+
+@media (min-width:992px) and (max-width:1249px) {
+        @keyframes anim {
+            from {
+                left: -240px;
+            }
+    
+            to {
+                left: 78px;
+            }
+        }
+
+        @keyframes anim2 {
+            from {
+                left: -640px;
+            }
+
+            to {
+                left: 77px;
+            }
+        }
+        @keyframes anim3 {
+            from {
+                right: -840px;
+            }
+
+            to {
+                right: -61px;
+            }
+        }
+
+        @keyframes anim4 {
+            from {
+                right: -640px;
+            }
+
+            to {
+                right: -60px;
+            }
+        }
+}
+
+@media (min-width:992px) and (max-width:1066px) {
+    @keyframes anim {
+        from {
+            left: -240px;
+        }
+
+        to {
+            left: 2px;
+        }
+    }
+
+    @keyframes anim2 {
+        from {
+            left: -640px;
+        }
+
+        to {
+            left: -14px;
+        }
+    }
+
+    @keyframes anim3 {
+        from {
+            right: -840px;
+        }
+
+        to {
+            right: 5px;
+        }
+    }
+
+    @keyframes anim4 {
+        from {
+            right: -640px;
+        }
+
+        to {
+            right: 20px;
+        }
+    }
+}
+
+@media (min-width:834px) and (max-width:992px) {
+    .section-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 11em;
+            align-items: center;
+            width: 82%;
+            margin: 0 auto;
+        }
+}
+
+@media (min-width:768px) and (max-width:834px) {
+    .section-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 11em;
+        align-items: center;
+        width: 98%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width:360px) and (max-width:768px) {
+    .section-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 11em;
+        align-items: center;
+        width: 72%;
+        margin: 0 auto;
+    }
+}
+
