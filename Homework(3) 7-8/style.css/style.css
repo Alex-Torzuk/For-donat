@@ -327,7 +327,22 @@ to {
     font-size: 2em;
 }
 
+.section-team-title {
+    font-family: 'Rosario';
+    font-weight: 700;
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 1em;
+}
 
+.section-team-experts {
+    display: flex;
+    text-align: center;
+}
+
+.experts_photo {
+    width: 86%;
+}
 
 
 
