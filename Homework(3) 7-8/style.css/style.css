@@ -150,7 +150,7 @@ to {
 
 .section-services-block-1 {
     width: 50%;
-    margin-top: 6em;
+    margin-top: 4em;
 }
 
 .section-services-block-2 {
@@ -158,12 +158,166 @@ to {
 
 }
 
+.section-services-block-2-image {
+    width: 100%;
+}
+
+.section-service-block-1-flex {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.section-service-block-1-flex:last-of-type {
+    margin-bottom: 0;
+}
+
+.services-img-1 {
+    position: relative;
+    left: 0;
+    animation: serv1 linear 6s infinite;
+}
+
+@keyframes serv1 {
+    from, 
+    to {
+        top: 0;
+        left: 0;
+    }
+
+    20% {
+        top: 0;
+        left: 338px;
+    }
+
+    40% {
+        top: 338px;
+        left: 338px;
+    }
+
+    60% {
+        top: 338px;
+        left: 0px;
+    }
+
+    80% {
+        top: 0px;
+    }
+}
+
+.services-img-2 {
+    position: relative;
+    left: 0;
+    animation: serv2 linear 6s infinite;
+}
+
+@keyframes serv2 {
+
+    from,
+    to {
+        top: 0;
+        left: 0;
+    }
+
+    20% {
+        top: 338px;
+        left: 0;
+    }
+
+    40% {
+        top: 338px;
+        left: -338px;
+    }
+
+    60% {
+        top: 0;
+        left: -338px;
+    }
+
+    80% {
+        top: 0px;
+        left: 0;
+    }
+}
+
+.services-img-3 {
+    position: relative;
+    left: 0;
+    animation: serv3 linear 6s infinite;
+}
+
+@keyframes serv3 {
+
+    from,
+    to {
+        top: 0;
+        left: 0;
+    }
+
+    20% {
+        top: -338px;
+        left: 0;
+        
+    }
+
+    40% {
+        top: -338px;
+        left: 338px;
+    }
+
+    60% {
+        top: 0;
+        left: 338px;
+    }
+
+    80% {
+        top: 0px;
+        left: 0;
+    }
+}
+
+.services-img-4 {
+    position: relative;
+    left: 0;
+    animation: serv4 linear 6s infinite;
+}
+
+@keyframes serv4 {
+
+    from,
+    to {
+        top: 0;
+        left: 0;
+    }
+
+    20% {
+        top: 0;
+        left: -338px;
+
+    }
+
+    40% {
+        top: -338px;
+        left: -338px;
+    }
+
+    60% {
+        top: -338px;
+        left: 0;
+    }
+
+    80% {
+        top: 0px;
+        left: 0;
+    }
+}
+
+
 .section-services-block-1-image {
     text-align: center;
 }
 
 .image-services1 {
-    width: 27%;
+    width: 78%;
 }
 
 .img-services1-title {
@@ -173,15 +327,15 @@ to {
     font-size: 2em;
 }
 
-.services-img-1 {
-    position: relative;
-}
 
 
 
 
 
-@media (min-width:992px) and (max-width:1249px) {
+
+
+
+@media (min-width:1066px) and (max-width:1249px) {
         @keyframes anim {
             from {
                 left: -240px;
@@ -286,14 +440,154 @@ to {
     }
 }
 
-@media (min-width:360px) and (max-width:768px) {
-    .section-gallery {
+
+
+@media (min-width:992px) and (max-width:1234px) {
+    .section-services {
         display: flex;
+        flex-direction: column-reverse;
         flex-wrap: wrap;
-        padding-top: 11em;
         align-items: center;
-        width: 72%;
-        margin: 0 auto;
-    }
 }
 
+    .image-services1 {
+        width: 72%;
+    }
+
+
+    @keyframes serv1 {
+
+        from,
+        to {
+            top: 0;
+            left: 0;
+        }
+
+        20% {
+            top: 0;
+            left: 235px;
+        }
+
+        40% {
+            top: 235px;
+            left: 235px;
+        }
+
+        60% {
+            top: 235px;
+            left: 0px;
+        }
+
+        80% {
+            top: 0px;
+        }
+    }
+
+            
+    @keyframes serv2 {
+
+        from,
+        to {
+            top: 0;
+            left: 0;
+        }
+
+        20% {
+            top: 235px;
+            left: 0;
+        }
+
+        40% {
+            top: 235px;
+            left: -235px;
+        }
+
+        60% {
+            top: 0;
+            left: -235px;
+        }
+
+        80% {
+            top: 0px;
+            left: 0;
+        }
+    }
+
+    @keyframes serv3 {
+
+        from,
+        to {
+            top: 0;
+            left: 0;
+        }
+
+        20% {
+            top: -235px;
+            left: 0;
+
+        }
+
+        40% {
+            top: -235px;
+            left: 235px;
+        }
+
+        60% {
+            top: 0;
+            left: 235px;
+        }
+
+        80% {
+            top: 0px;
+            left: 0;
+        }
+    }
+
+    @keyframes serv4 {
+
+        from,
+        to {
+            top: 0;
+            left: 0;
+        }
+
+        20% {
+            top: 0;
+            left: -235px;
+
+        }
+
+        40% {
+            top: -235px;
+            left: -235px;
+        }
+
+        60% {
+            top: -235px;
+            left: 0;
+        }
+
+        80% {
+            top: 0px;
+            left: 0;
+        }
+    }
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .section-services-block-1 {
+        width: 100%;
+        margin-top: 4em;
+        }
+
+    .section-services-block-2 {
+        display: none;
+    }
+
+    .section-service-block-1-flex {
+        display: flex;
+        margin-bottom: 2em;
+        justify-content: center;
+    }
+}
