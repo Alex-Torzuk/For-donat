@@ -340,9 +340,35 @@ to {
     text-align: center;
 }
 
+.section-team-experts_photo:hover .experts-link {
+    display: block;
+}
+
 .experts_photo {
     width: 86%;
 }
+
+.experts-link {
+    position: relative;
+    background-color: rgba(163, 83, 10, 0.7);
+    width: 294px;
+    height: 3em;
+    border-radius: 0 0 30px 30px;
+    top: -147px;
+    left: 24px;
+    font-family: 'Volkhov';
+    font-weight: 400;
+    font-size: 3em;
+    color: #FFFAFA;
+    box-sizing: border-box;
+    padding-top: .8em;
+    display: none;
+}
+
+
+
+
+
 
 
 
