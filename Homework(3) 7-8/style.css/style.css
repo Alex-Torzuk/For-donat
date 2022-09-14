@@ -340,9 +340,21 @@ to {
     text-align: center;
 }
 
-.section-team-experts_photo:hover .experts-link {
+.section-team-experts_photo-1:hover .experts-link  {
     display: block;
+    
 }
+
+/* .section-team-experts_photo-1:hover .experts_photo-background {
+    filter: brightness(0.5);
+    
+} */
+
+
+/* .experts_photo-background  {
+    filter: brightness(0.5);
+    
+} */
 
 .experts_photo {
     width: 86%;
