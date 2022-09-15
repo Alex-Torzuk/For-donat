@@ -338,6 +338,7 @@ to {
 .section-team-experts {
     display: flex;
     text-align: center;
+    height: 30.1em;
 }
 
 .section-team-experts_photo1:hover .experts-link {
@@ -361,9 +362,12 @@ to {
     display: block;
 } */
 
-/* .section-team-experts_photo1:hover .experts_photo {
+/* .section-team-experts_photo1:hover .image-filter {
     filter: brightness(0.5);
-    
+}
+
+.image-filter {
+    filter: none;
 } */
 
 
@@ -413,11 +417,11 @@ to {
 .experts-link3 {
     position: relative;
     background-color: rgba(163, 83, 10, 0.7);
-    width: 285px;
+    width: 292px;
     height: 3em;
     border-radius: 0 0 30px 30px;
     top: -147px;
-    left: 24px;
+    left: 23px;
     font-family: 'Volkhov';
     font-weight: 400;
     font-size: 3em;
@@ -430,7 +434,7 @@ to {
 .experts-link4 {
     position: relative;
     background-color: rgba(163, 83, 10, 0.7);
-    width: 285px;
+    width: 289px;
     height: 3em;
     border-radius: 0 0 30px 30px;
     top: -147px;
