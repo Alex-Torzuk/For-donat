@@ -340,19 +340,35 @@ to {
     text-align: center;
 }
 
-.section-team-experts_photo-1:hover .experts-link  {
+.section-team-experts_photo1:hover .experts-link {
     display: block;
-    
 }
 
-/* .section-team-experts_photo-1:hover .experts_photo-background {
+.section-team-experts_photo2:hover .experts-link2 {
+    display: block;
+}
+
+.section-team-experts_photo3:hover .experts-link3 {
+    display: block;
+}
+
+.section-team-experts_photo4:hover .experts-link4 {
+    display: block;
+}
+
+
+/* .section-team-experts_photo:hover .experts-link2 {
+    display: block;
+} */
+
+/* .section-team-experts_photo1:hover .experts_photo {
     filter: brightness(0.5);
     
 } */
 
 
 /* .experts_photo-background  {
-    filter: brightness(0.5);
+    filter: none;
     
 } */
 
@@ -364,6 +380,57 @@ to {
     position: relative;
     background-color: rgba(163, 83, 10, 0.7);
     width: 294px;
+    height: 3em;
+    border-radius: 0 0 30px 30px;
+    top: -147px;
+    left: 24px;
+    font-family: 'Volkhov';
+    font-weight: 400;
+    font-size: 3em;
+    color: #FFFAFA;
+    box-sizing: border-box;
+    padding-top: .8em;
+    display: none;
+}
+
+.experts-link2 {
+    position: relative;
+    background-color: rgba(163, 83, 10, 0.7);
+    width: 285px;
+    height: 3em;
+    border-radius: 0 0 30px 30px;
+    top: -147px;
+    left: 24px;
+    font-family: 'Volkhov';
+    font-weight: 400;
+    font-size: 3em;
+    color: #FFFAFA;
+    box-sizing: border-box;
+    padding-top: .8em;
+    display: none;
+}
+
+.experts-link3 {
+    position: relative;
+    background-color: rgba(163, 83, 10, 0.7);
+    width: 285px;
+    height: 3em;
+    border-radius: 0 0 30px 30px;
+    top: -147px;
+    left: 24px;
+    font-family: 'Volkhov';
+    font-weight: 400;
+    font-size: 3em;
+    color: #FFFAFA;
+    box-sizing: border-box;
+    padding-top: .8em;
+    display: none;
+}
+
+.experts-link4 {
+    position: relative;
+    background-color: rgba(163, 83, 10, 0.7);
+    width: 285px;
     height: 3em;
     border-radius: 0 0 30px 30px;
     top: -147px;
