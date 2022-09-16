@@ -540,6 +540,82 @@ to {
             right: 20px;
         }
     }
+
+.section-team-experts {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+    .experts-link {
+        position: relative;
+        background-color: rgba(163, 83, 10, 0.7);
+        width: 348px;
+        height: 3em;
+        border-radius: 0 0 30px 30px;
+        top: -148px;
+        left: 28px;
+        font-family: 'Volkhov';
+        font-weight: 400;
+        font-size: 3em;
+        color: #FFFAFA;
+        box-sizing: border-box;
+        padding-top: .8em;
+        display: none;
+    }
+
+    .experts-link2 {
+        position: relative;
+        background-color: rgba(163, 83, 10, 0.7);
+        width: 338px;
+        height: 3em;
+        border-radius: 0 0 30px 30px;
+        top: -148px;
+        left: 27px;
+        font-family: 'Volkhov';
+        font-weight: 400;
+        font-size: 3em;
+        color: #FFFAFA;
+        box-sizing: border-box;
+        padding-top: .8em;
+        display: none;
+    }
+
+    .experts-link3 {
+        position: relative;
+        background-color: rgba(163, 83, 10, 0.7);
+        width: 344px;
+        height: 3em;
+        border-radius: 0 0 30px 30px;
+        top: -147px;
+        left: 28px;
+        font-family: 'Volkhov';
+        font-weight: 400;
+        font-size: 3em;
+        color: #FFFAFA;
+        box-sizing: border-box;
+        padding-top: .8em;
+        display: none;
+    }
+
+    .experts-link4 {
+        position: relative;
+        background-color: rgba(163, 83, 10, 0.7);
+        width: 340px;
+        height: 3em;
+        border-radius: 0 0 30px 30px;
+        top: -147px;
+        left: 28px;
+        font-family: 'Volkhov';
+        font-weight: 400;
+        font-size: 3em;
+        color: #FFFAFA;
+        box-sizing: border-box;
+        padding-top: .8em;
+        display: none;
+    }
+
 }
 
 @media (min-width:834px) and (max-width:992px) {
@@ -551,6 +627,87 @@ to {
             width: 82%;
             margin: 0 auto;
         }
+
+    .section-team-experts {
+        display: flex;
+        /* flex-wrap: wrap; */
+        text-align: center;
+        /* justify-content: center; */
+        flex-direction: column;
+    }
+
+        .experts_photo {
+            width: 35%;
+        }
+
+    .experts-link {
+        position: relative;
+        background-color: rgba(163, 83, 10, 0.7);
+        width: 294px;
+        height: 3em;
+        border-radius: 0 0 30px 30px;
+        top: -148px;
+        left: 269px;
+        font-family: 'Volkhov';
+        font-weight: 400;
+        font-size: 3em;
+        color: #FFFAFA;
+        box-sizing: border-box;
+        padding-top: .8em;
+        display: none;
+    }
+
+    .experts-link2 {
+        position: relative;
+        background-color: rgba(163, 83, 10, 0.7);
+        width: 293px;
+        height: 3em;
+        border-radius: 0 0 30px 30px;
+        top: -148px;
+        left: 269px;
+        font-family: 'Volkhov';
+        font-weight: 400;
+        font-size: 3em;
+        color: #FFFAFA;
+        box-sizing: border-box;
+        padding-top: .8em;
+        display: none;
+    }
+
+    .experts-link3 {
+        position: relative;
+        background-color: rgba(163, 83, 10, 0.7);
+        width: 344px;
+        height: 3em;
+        border-radius: 0 0 30px 30px;
+        top: -147px;
+        left: 270px;
+        font-family: 'Volkhov';
+        font-weight: 400;
+        font-size: 3em;
+        color: #FFFAFA;
+        box-sizing: border-box;
+        padding-top: .8em;
+        display: none;
+    }
+
+    .experts-link4 {
+        position: relative;
+        background-color: rgba(163, 83, 10, 0.7);
+        width: 292px;
+        height: 3em;
+        border-radius: 0 0 30px 30px;
+        top: -147px;
+        left: 270px;
+        font-family: 'Volkhov';
+        font-weight: 400;
+        font-size: 3em;
+        color: #FFFAFA;
+        box-sizing: border-box;
+        padding-top: .8em;
+        display: none;
+    }
+
 }
 
 @media (min-width:768px) and (max-width:834px) {
