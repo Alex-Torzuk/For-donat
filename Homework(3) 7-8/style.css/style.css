@@ -342,7 +342,7 @@ to {
 .section-team-experts {
     display: flex;
     text-align: center;
-    height: 30.1em;
+    /* height: 30.1em; */
 }
 
 .section-team-experts_photo1:hover .experts-link {
@@ -498,6 +498,12 @@ to {
     width: 35%;
 }
 
+.footer {
+    display: flex;
+}
+
+
+
 
 
 
@@ -589,12 +595,13 @@ to {
         }
     }
 
-.section-team-experts {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-}
+    .section-team-experts {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        
+    }
 
     .experts-link {
         position: relative;
@@ -662,6 +669,19 @@ to {
         box-sizing: border-box;
         padding-top: .8em;
         display: none;
+    }
+
+    .section-reviews {
+        display: block;
+    }
+
+    .section-reviews-table {
+        margin: 0 auto;
+        padding-bottom: 2em;
+    }
+
+    .section-reviews-map {
+        margin: 0 auto;
     }
 
 }
@@ -755,6 +775,18 @@ to {
         padding-top: .8em;
         display: none;
     }
+
+    .section-reviews {
+        display: block;
+    }
+
+    .section-reviews-table {
+        margin: 0 auto;
+        padding-bottom: 2em;
+    }
+
+    .section-reviews-map {
+        margin: 0 auto;
 
 }
 
