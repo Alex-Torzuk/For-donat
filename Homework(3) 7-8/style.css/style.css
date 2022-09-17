@@ -327,6 +327,10 @@ to {
     font-size: 2em;
 }
 
+.section-team {
+    margin-bottom: 8em;
+}
+
 .section-team-title {
     font-family: 'Rosario';
     font-weight: 700;
@@ -448,7 +452,51 @@ to {
     display: none;
 }
 
+.section-reviews {
+    display: flex;
+    justify-content: center;    
+}
 
+.section-reviews-title {
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: .3em;
+}
+
+
+.section-reviews-table {
+    width: 55%;
+}
+
+.section-reviews-table table {
+    width: 94%;
+    border: none;
+    background-color: #E5E5E5;
+}
+
+.section-reviews-table table tbody {
+    background-color: #FFFFFF;
+}
+
+.table-input {
+    width: 99%;
+    border: none;
+}
+
+.table-input-height {
+    height: 2em;
+}
+
+.table-tr {
+    height: 5.3em;
+}
+
+.section-reviews-map {
+    width: 35%;
+}
 
 
 
